@@ -19,7 +19,6 @@ Object learning with NICO Vision using the RGWR network.
 """
 import random
 import numpy as np
-from random import choice
 
 from gammagwr import GammaGWR
 from utilities import Utilities

@@ -23,7 +23,6 @@ import pickle
 
 from gammagwr import GammaGWR
 from utilities import Utilities
-from plot import Plot
 
 CONTEXT_BETA = 0.7
 LEARNING_RATE_B = 0.3
