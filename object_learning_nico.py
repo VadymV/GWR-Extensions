@@ -29,8 +29,8 @@ if __name__ == "__main__":
 
     # ------------------------------------ Global variables ------------------------------------------------------------
     BATCH_LEARNING = 0  # Evaluate as batch?
-    ITERATIVE_LEARNING = 0  # Evaluate as iterative learning?
-    NOVELTY_DETECTION = 1  # Evaluate for novelty detection?
+    ITERATIVE_LEARNING = 1  # Evaluate as iterative learning?
+    NOVELTY_DETECTION = 0  # Evaluate for novelty detection?
     TRAIN_SESSIONS = [2]  # Select sessions for training.
     TEST_SESSIONS = [1]  # Select sessions for testing.
     TRAIN_INSTANCES = range(0, 50)  # Select instances for training.
