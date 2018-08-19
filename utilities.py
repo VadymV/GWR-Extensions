@@ -94,7 +94,7 @@ class Utilities:
 
     @staticmethod
     def describe_data(data, dataset_name):
-        if dataset_name == 'icub':
+        if dataset_name == 'icwt':
             dimension = data.shape[1]
             class_labels = data[:, dimension - 6]
             dimension -= 6
